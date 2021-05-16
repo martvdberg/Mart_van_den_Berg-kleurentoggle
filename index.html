@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Kleuren toggle</title>
+  </head>
+  
+  <body>
+    <nav class="menu-toggle">
+      <div id="menu-btn"></div>
+      <ul id="menu-color">
+        <li class="background-grey">grijs</li>
+        <li class="background-red">rood</li>
+        <li class="background-green">groen</li>
+        <li class="background-orange">oranje</li>
+        <li class="background-purple">paars</li>
+      </ul>
+    </nav>
+
+    <main>
+      <h1 id="color-text">De achtegrond kleur is nu <span></span></h1>
+
+      <p>
+        Verander de kleur van de achtergrond in het uitklap menu hiernaast,
+        <br />
+        klik op de kleur van je keuze hieronder <br />
+        of gebruik het toetsenbord:
+        <ol>
+          <li>grijs</li>
+          <li>rood</li>
+          <li>groen</li>
+          <li>oranje</li>
+          <li>paars</li>
+        </ol>
+      </p>
+      
+      <input id="radio-grey" type="radio" name="btnChange" />
+      <label for="radio-grey">grijs</label>
+
+      <input id="radio-red" type="radio" name="btnChange" />
+      <label for="radio-red">rood</label>
+
+      <input id="radio-green" type="radio" name="btnChange" />
+      <label for="radio-green">groen</label>
+
+      <input id="radio-orange" type="radio" name="btnChange" />
+      <label for="radio-orange">oranje</label>
+
+      <input id="radio-purple" type="radio" name="btnChange" />
+      <label for="radio-purple">paars</label>
+    </main>
+  </body>
+</html>
